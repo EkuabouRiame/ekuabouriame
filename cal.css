@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(R.jpeg);
+}
+.CALCULATOR{
+    border: 10px solid #254354;
+    padding: 10px;
+    border-radius: 20px;
+    background: #01131e;
+    box-sizing: 1px 3px 150px rgba(99, 82, 89, 0.5);
+}
+input{
+    width: 410px;
+    border: 50%;
+    padding: 15px;
+    margin: 30px;
+    background: rgb(26, 173, 173);
+    box-shadow: 3px 15px 20px rgba(231, 35, 5, 0.1);
+    font-size: 60px;
+    text-align: right;
+    cursor: pointer;
+}
+input::placeholder{
+    color: rgb(44, 50, 4);
+}
+button{
+    border: none;
+    width: 94px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 20%;
+    background: #010917;
+    color: rgb(255, 1, 39);
+    font-size: 30px;
+    box-shadow: 8px 8px 10px rgba(10, 237, 93, 0.5);
+    transition: box-shadow .1s ease-in-out;
+}
+button:hover{
+    box-shadow: inset 5px 5 px 8px rgba(218, 228, 221, 0.1),
+                inset -5px -5 px 8px #b81d1d;
+                background-color: #e0d2cd;
+}
+.operator{
+    background-color: rgb(2, 2, 2);
+    color: #0767ed;
+    font-weight: 900;
+}
+.enterBtn{
+    width: 450px;
+    background-color: rgb(78, 209, 133);
+    color: #000000;
+    font-size: 30px;
+}
+.dotBtn{
+    font-size: 40px;
+    color: #072aed;
+}
