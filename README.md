@@ -1,4 +1,6 @@
-## Hi there 👋
+## Hi friends👋
+ I am currently pursuing Master of Computer Application.
+and also i would like to thank you and excited to build a differents Tech things with you.
 
 <!--
 **EkuabouRiame/ekuabouriame** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
